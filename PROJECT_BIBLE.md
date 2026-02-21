@@ -29,6 +29,10 @@ Public website + Admin backoffice to manage public content:
 - Install: npm install
 - Dev: npm run dev
 
+## Known Issues
+- Windows PowerShell does not support: rmdir api /s /q
+- Correct command in PowerShell: Remove-Item -Recurse -Force api
+
 ## Status
 - [x] GitHub repo created
 - [x] Repo cloned locally
