@@ -33,7 +33,6 @@ Public website + Admin backoffice to manage public content:
 - [x] GitHub repo created
 - [x] Repo cloned locally
 - [x] Turborepo scaffold running
-- [ ] Brain files committed
-- [ ] apps/web created
-- [ ] apps/admin created
+- [x] Brain files committed
+- [x] Renamed apps: docs -> admin
 - [ ] apps/api created
