@@ -32,6 +32,12 @@ Public website + Admin backoffice to manage public content:
 ## Known Issues
 - Windows PowerShell does not support: rmdir api /s /q
 - Correct command in PowerShell: Remove-Item -Recurse -Force api
+- Windows + Turborepo + NestJS may cause Git hashing "Access is denied"
+- Fix:
+  1. Stop dev server
+  2. Delete .turbo folder
+  3. Delete node_modules
+  4. npm install
 
 ## Status
 - [x] GitHub repo created
